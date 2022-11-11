@@ -1,0 +1,42 @@
+{
+  "name": "caiomarcatti12/repository",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Marcatti",
+      "email": "caiomarcatti12@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test" : "./vendor/bin/pest --min=90",
+    "test-coverage" : "clear && php -d xdebug.remote_autostart=0 -d xdebug.remote_enable=0 -d xdebug.coverage_enable=true -d xdebug.mode=coverage ./vendor/bin/pest --min=90 --coverage"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "CaioMarcatti12\\Repository\\" :  "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4" : {
+      "Test\\" :  "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "caiomarcatti12/core": "dev-master",
+    "caiomarcatti12/data": "dev-master",
+    "jenssegers/mongodb": "dev-master",
+    "caiomarcatti12/env": "dev-master",
+    "ramsey/uuid": "5.x-dev"
+  },
+  "require-dev": {
+    "pestphp/pest": "2.x-dev"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
