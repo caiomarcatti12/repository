@@ -28,8 +28,7 @@
     "caiomarcatti12/core": "dev-master",
     "caiomarcatti12/data": "dev-master",
     "jenssegers/mongodb": "dev-master",
-    "caiomarcatti12/env": "dev-master",
-    "ramsey/uuid": "5.x-dev"
+    "caiomarcatti12/env": "dev-master"
   },
   "require-dev": {
     "pestphp/pest": "2.x-dev"
