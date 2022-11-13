@@ -1,6 +1,7 @@
 {
   "name": "caiomarcatti12/repository",
   "description": "",
+  "version": "2.0.0",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -23,19 +24,20 @@
       "Test\\" :  "tests/"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "require": {
-    "caiomarcatti12/core": "dev-master",
-    "caiomarcatti12/data": "dev-master",
-    "jenssegers/mongodb": "dev-master",
-    "caiomarcatti12/env": "dev-master"
-  },
-  "require-dev": {
-    "pestphp/pest": "2.x-dev"
+    "caiomarcatti12/core": "2.0.0",
+    "caiomarcatti12/data": "2.0.0",
+    "caiomarcatti12/env": "2.0.0",
+    "jenssegers/mongodb": "^3.9"
   },
   "config": {
     "allow-plugins": {
       "pestphp/pest-plugin": true
     }
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.22"
   }
 }
