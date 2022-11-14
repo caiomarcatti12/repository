@@ -1,7 +1,7 @@
 {
   "name": "caiomarcatti12/repository",
   "description": "",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -27,9 +27,9 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
-    "caiomarcatti12/core": "2.0.0",
-    "caiomarcatti12/data": "2.0.0",
-    "caiomarcatti12/env": "2.0.0",
+    "caiomarcatti12/core": "~2.0.2",
+    "caiomarcatti12/data": "~2.0.0",
+    "caiomarcatti12/env": "~2.0.1",
     "jenssegers/mongodb": "^3.9"
   },
   "config": {
