@@ -1,7 +1,7 @@
 {
   "name": "caiomarcatti12/repository",
   "description": "",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -17,11 +17,6 @@
   "autoload" : {
     "psr-4" : {
       "CaioMarcatti12\\Repository\\" :  "src/"
-    }
-  },
-  "autoload-dev" : {
-    "psr-4" : {
-      "Test\\" :  "tests/"
     }
   },
   "minimum-stability": "stable",
