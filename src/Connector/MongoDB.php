@@ -35,7 +35,8 @@ class MongoDB implements ConnectorInterface, LauncherInterface
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
             'options' => [
-                'database' => Property::get('mongodb.database-auth', 'admin'),
+                'authSource' => Property::get('mongodb.authSource', 'admin'),
+                'authMechanism' => Property::get('mongodb.authMechanism', 'default'),
             ]
         ], 'mongodb');
 
